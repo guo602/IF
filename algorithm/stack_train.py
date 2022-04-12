@@ -19,7 +19,7 @@ from algorithm.stack_predict import PredictConfig
 
 class TrainConfig(mltk.Config):
     # training params
-    batch_size = 100
+    batch_size = 20
     pretrain_max_epoch = 20
     max_epoch = 20
     train_start = 0

@@ -23,7 +23,7 @@ class PredictConfig(mltk.Config):
 
     # evaluation params
     test_n_z = 100
-    test_batch_size = 50
+    test_batch_size = 10
     test_start = 0
     max_test_size = None  # `None` means full test set
 
